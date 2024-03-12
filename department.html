@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Applied Science</title>
+    <style>
+        
+        body, h1, h2, h3, ul, li, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url("image/img-13.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: rgba(34, 95, 207, 0.692));
+            background-image:url("image/page-header.jpg");
+            color: #dac7c7;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #0b0c1b;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.192);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        
+        .department-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .department-item {
+            background-color: #518ba8;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.774);
+        }
+
+        .department-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #130101;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 150px;
+        }
+        body {
+            background-image: url("image/img-13.png");
+            background-size: cover; 
+            background-position: center; 
+          
+        }
+        img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+button[type="submit"] {
+            background-color: #cc0000; 
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #990000; 
+        }
+
+        
+
+        .text {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.7); 
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img src="image/logo.png" alt="FOSTE university Logo" class="logo">
+        <h1>Department of Computer science and Engineering</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Faculty</li>
+            <li><a href="department.html">Department</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="payments.html">Payment</a></li>
+            <li><a href="timetable.html">Timetable</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>OUR FACULTY</h2>
+            <p>Welcome to the Department of Computer science and Engineering at our university. We offer a diverse range of programs aimed at providing practical and hands-on learning experiences for our students.</p>
+        </section>
+        <section>
+            <h2>Our Departments</h2>
+            <div class="department-info">
+                <div class="department-item">
+                    <img src="image/cs.webp" alt="Department of Computer Science">
+                    
+                    <h3>Computer Science</h3>
+                    <p>Explore the world of computing and technology with our innovative programs.</p>
+                </div>
+                <div class="department-item">
+                    <img src="image/eng.jpg" alt="Department of Engineering">
+                    <h3>Engineering</h3>
+                    <p>Join us in solving real-world problems through innovative engineering solutions.</p>
+                </div>
+               
+            </div>
+            
+        </section>
+                        <hr>
+                         <h1 class="about_taital">About Us</h1>
+                         <h2>Why you should Register with us</h2>
+                         <p class="lorem_text">Our department actively encourages and supports student research initiatives. You'll have the opportunity to engage in cutting-edge research projects, collaborate with faculty members, and contribute to the advancement of knowledge in your field. Again We emphasize practical, hands-on learning experiences to complement theoretical knowledge. Through projects, internships, and real-world applications, you'll gain valuable skills and experience that will set you apart in the job market.</p>
+                         <div class="more_bt"><a href="#">Read More </a></div>
+                         <div><img src="image/img-8.png" class="image_8"></div>
+
+                         <a href="registration.html"> <button type="submit">Register</button></a>
+    </main>
+    <footer>
+        <p>&copy; FOSTE Faculty of Applied Science</p>
+    </footer>
+</body>
+</html>
+
